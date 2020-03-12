@@ -16,8 +16,13 @@ interpret the language correctly as "es"
 
 To implemented firewall changes, do the following:
 
+
 $ iptables -A INPUT -p tcp -m tcp --source 192.168.0.0/16 --dport 9998 -j ACCEPT -m time --timestart 07:00 --timestop 19:00
+
 $ service iptables save
+
+
+
 
 
 Output of iptables-save command can be found in: iptables-save.txt file. 
