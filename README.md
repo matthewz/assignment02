@@ -20,3 +20,7 @@ $ iptables -A INPUT -p tcp -m tcp --source 192.168.0.0/16 --dport 9998 -j ACCEPT
 $ service iptables save
 
 
+Output of iptables-save command can be found in: iptables-save.txt file. 
+
+
+
