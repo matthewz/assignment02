@@ -1,0 +1,22 @@
+
+Linux Site Reliability Engineer Technical Assessment
+
+
+Tasks:
+
+1. Download the latest tika-server.jar from https://tika.apache.org/
+    No file is required from this task
+
+2. Package the jar in a container image
+    Provide the Dockerfile or equivalent and all supporting files/scripts used to create the image, such that a “docker build .” will create the image
+
+3. Write a script to upload documents to the Tika server for text extraction
+   Provide the script
+   If the script is not a self-contained file ( .sh, .py, etc.) please provide build instructions
+
+4. Configure iptables to allow traffic to tika-server from 192.168.0.0/16 between the hours of 07:00 and 19:00
+   Provide instructions on implementing your solution
+   Provide the output of iptables-save
+   Provide any scripts used in your answer
+
+
